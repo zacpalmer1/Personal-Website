@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: cardo regular;*/
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #29383D
+
+}
+
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#FFFFFF
+}
+nav ul li a:hover{
+    color: #D0C5B4;
+}
+
+.greeting{
+    margin-left: 8%;
+    margin-top: 13% ;
+}
+
+.greeting h1{
+    font-size: 200px;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+}
+
+span{
+    color:#A0AF84;
+}
+
+.greeting p{
+    color:#D0C5B4;
+    line-height: 22px;
+}
+
+.greeting a{
+    background:#DAAAB4;
+    padding:20px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    display:inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+    color: #29383D;
+}
+
+.images{
+    width: 45%;
+    height: 70%;
+    position:absolute;
+    bottom:20%; 
+    right:100px;
+}
+
+.images img{
+    height: 65%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition:bottom 1s, left 1s;
+}
+
+.images:hover .shapes1{
+    bottom: 60px;
+
+}
+
+.images:hover .profileImage{
+    left: 45%;
+
+}
+
+.headerTitle{
+    color:#A0AF84;
+}
+
+.logoImage{
+    width: 30px;
+    height:30px;
+}
